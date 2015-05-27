@@ -11,7 +11,7 @@ public class RewriterAgent {
 
 	public static void premain(String agentArgs,
 			Instrumentation instrumentation) {
-		instrumentation.addTransformer(new RichClassFileTransFormat());
+		instrumentation.addTransformer(new RichClassFileTransFormat(),true);
 	}
 
 }
