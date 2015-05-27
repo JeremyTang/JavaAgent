@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Rinch Android Agent SDK
+Implementation-Version: 1.0.0
+Built-By: JeremyTang
+Created-By: Apache Maven 3.1.1
+Premain-Class: com.rich.agent.rewriter.RewriterAgent
+Implementation-Vendor: rinch Inc.
+Implementation-Vendor-Id:  com.rich.agent.rewriter
+Build-Jdk: 1.6.0_25
+Agent-Class: com.rich.agent.rewriter.RewriterAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Archiver-Version: Plexus Archiver
+
